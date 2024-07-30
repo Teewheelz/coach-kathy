@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+AU+VIC:wght@100..400&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="icon" href="Images/icontub.png">
+    <link rel="stylesheet" href="style.css">
+    <title>coach kathy</title>
+</head>
+<body>
+    <div class="hero">
+        <video autoplay loop muted playsinline class="backvideo">
+            <source src="Images/backvideo.mp4" type="video/mp4">
+        </video>
+            <nav>
+                <div class="logo"><span class="span-1">C</span>oach <span>K</span>athy</div>
+                        <ul class="nav-links">
+                            <li><a href="index.html">HOME</a></li>
+                            <li><a href="blogs.html">BLOGS</a></li>
+                            <li><a href="#contacts">CONTACT ME</a></li>
+                        </ul>
+                        <div class="menu">
+                            <i class="fas fa-bars menu-icon" id="open-sidebar"></i>
+                        </div>
+            
+            </nav>
+           <div class="sidebar" id="sidebar">
+                            <i class="fas fa-times close-icon iconz" id="close-sidebar"></i>
+                        <ul>
+                            <li><a href="index.html">HOME</a></li>
+                            <li><a href="blogs.html">BLOGS</a></li>
+                            <li><a href="#contacts">CONTACT ME</a></li>
+                        </ul>
+             </div>
+                            <div class="overlay" id="overlay"></div>
+
+            </div>
+<!------------------------FORMS---------------------------->
+<section class="formsections">
+    <form class="floating-form" action="connectors/process_application.php" method="POST">
+        <h2>FILL THE APPLICATION FORM</h2>
+        <label for="first-name">First Name:</label>
+        <input type="text" id="first-name" name="first-name" required>
+        
+        <label for="second-name">Second Name:</label>
+        <input type="text" id="second-name" name="second-name" required>
+        
+        <label for="last-name">Last Name:</label>
+        <input type="text" id="last-name" name="last-name" required>
+        
+        <label for="phone-number">Phone Number:</label>
+        <input type="text" id="phone-number" name="phone-number" pattern="[0-9]*" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <h3>WHICH OF OUR SERVICES ARE YOU INTERESTED IN</h3>
+        <div class="checkbox-group">
+            <label class="checkbox-container">
+                Personal Leadership Coaching
+                <input type="checkbox" name="services[]" value="personal_leadership_coaching">
+                <span class="checkmark"></span>
+            </label>
+            <label class="checkbox-container">
+                Group Leadership Coaching
+                <input type="checkbox" name="services[]" value="group_leadership_coaching">
+                <span class="checkmark"></span>
+            </label>
+            <label class="checkbox-container">
+                Organizational Development
+                <input type="checkbox" name="services[]" value="organizational_development">
+                <span class="checkmark"></span>
+            </label>
+            <label class="checkbox-container">
+                Leadership Mentorship
+                <input type="checkbox" name="services[]" value="leadership_mentorship">
+                <span class="checkmark"></span>
+            </label>
+            <label class="checkbox-container">
+                Training in Coaching, Mentoring, and Counselling
+                <input type="checkbox" name="services[]" value="leadership_mentorship">
+                <span class="checkmark"></span>
+            </label>
+                        <label class="checkbox-container">
+                Counselling Services
+                <input type="checkbox" name="services[]" value="leadership_mentorship">
+                <span class="checkmark"></span>
+            </label>
+                        <label class="checkbox-container">
+               Public Speaking, Conferences, Workshop Moderation
+                <input type="checkbox" name="services[]" value="leadership_mentorship">
+                <span class="checkmark"></span>
+            </label>
+                        <label class="checkbox-container">
+                Training on the Power of Journal Keeping
+                <input type="checkbox" name="services[]" value="leadership_mentorship">
+                <span class="checkmark"></span>
+            </label>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+
+    <form class="assistance-form" action="connectors/send_request.php" method="POST">
+        <h2>REQUESTING ASSISTANCE</h2>
+        <p class="details">UPON SUBMITTING THIS FORM YOU WILL RECEIVE A FOLLOW-UP EMAIL OR PHONE CALL.</p>
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="phone-number">Phone Number:</label>
+        <input type="text" id="phone-number" name="phone-number" pattern="[0-9]*" required>
+        
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+        
+        <button type="submit">Submit</button>
+    </form>
+</section>
+<section class="contact">
+    <div class="contactheader">
+        <h2 id="contacts">Reach Us Through</h2>
+        <hr width="90%">
+    </div>
+    <div class="mainconactcontainer">
+    <div class="contactdetail">
+        <div class="social-media">
+            <ul class="social-media-list">
+                <li><a href="https://web.facebook.com/profile.php?id=100083237147342" target="_blank" class="social-link"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="mailto:katherinewanjohi@gmail.com" class="social-link"><i class="fa-solid fa-envelope"></i></a></li>
+                <li><a href="https://www.instagram.com/catherinewanjohi/" target="_blank" class="social-link"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/catherine-mumbi-wanjohi?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B2h7P1KZwSuGfhPx1S2%2FI%2Bg%3D%3D" target="_blank" class="social-link"><i class="fab fa-linkedin-in"></i></a></li>
+                <li><a href="https://www.youtube.com/channel/UCK58izy4sjb8Of-qlYuJa7Q" target="_blank" class="social-link"><i class="fab fa-youtube"></i></a></li>
+                <li><a href="https://x.com/share?url=https://thrivingpresence7.wixsite.com/thrivingpresence/post/thriving-presence" target="_blank" class="social-link"><i class="fa-brands fa-x-twitter"></i></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="contact-form-container">
+        <form action="connectors/process_form.php" method="POST">
+            <div class="form-group">
+                <input type="text" id="name" name="name" required placeholder="Name">
+            </div>
+            <div class="form-group">
+   
+                <input type="email" id="email" name="email" required placeholder="email">
+            </div>
+            <div class="form-group">
+                <textarea id="message" name="message" rows="5" required placeholder="ENTER YOUR MESSAGE HERE...."></textarea>
+            </div>
+            <div class="form-group">
+                <button type="submit">Send Message</button>
+            </div>
+        </form>
+    </div>
+    </div>
+</section>
+<script src="script.js"></script>
+</body>
+</html>
+  

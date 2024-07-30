@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link rel="shortcut icon" type="icon" href="Images/icontub.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+AU+VIC:wght@100..400&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="icon" href="Images/icontub.png">
+    <link rel="stylesheet" href="style.css">
+    <title>coach kathy</title>
+</head>
+<body>
+    <div class="hero">
+        <video autoplay loop muted playsinline class="backvideo">
+            <source src="Images/backvideo.mp4" type="video/mp4">
+        </video>
+            <nav>
+                <div class="logo"><span class="span-1">C</span>oach <span class="span-1">K</span>athy</div>
+                        <ul class="nav-links">
+                            <li><a href="index.html">HOME</a></li>
+                            <li><a href="#services">SERVICES</a></li>
+                            <li><a href="#aboutme">ABOUT ME</a></li>
+                            <li><a href="blogs.html">BLOGS</a></li>
+                            <li><a href="#contacts">CONTACT ME</a></li>
+                        </ul>
+                        <div class="menu">
+                            <i class="fas fa-bars menu-icon" id="open-sidebar"></i>
+                        </div>
+            
+            </nav>
+           <div class="sidebar" id="sidebar">
+                            <i class="fas fa-times close-icon iconz" id="close-sidebar"></i>
+                            <ul class="nav-links">
+                                <li><a href="index.html">HOME</a></li>
+                                <li><a href="#services">SERVICES</a></li>
+                                <li><a href="#aboutme">ABOUT ME</a></li>
+                                <li><a href="blogs.html">BLOGS</a></li>
+                                <li><a href="#contacts">CONTACT ME</a></li>
+                            </ul>
+             </div>
+                            <div class="overlay" id="overlay"></div>
+
+            </div>
+            <section class="heroshot">
+                <div class="picout">
+                    <div class="picin"></div>
+                </div>
+                <div class="contentheroshot">
+                    <div class="introcontent">
+                        <div class="headering">
+                            <div class="typing" id="typing"></div>
+                        </div>
+                    </div>
+                    <div class="paragraph">
+                        <p class="justified">Presence is a profound and transformative concept that extends 
+                            far beyond mere physical proximity. It encompasses the entirety 
+                            of our being in any given space, often transcending the visible. 
+                            Though its effects may be difficult to quantify, their impact is
+                            undeniable, fostering an environment where each individual feels 
+                            uniquely valued and cherished. As a coach, I embody this holistic 
+                            presence, aligning with the ICF's 8 Coaching Competencies, to create
+                            a space of safety and trust. This nurturing presence facilitates 
+                            healing, growth, and the embracing of one's vulnerabilities, ultimately 
+                            transforming them into strengths. Through coaching, I invite clients
+                            to fully immerse themselves in their journey, much like a sunflower 
+                            follows the sun, guiding them towards their inner light and potential.
+                        </p>
+                    </div>
+                    <div class="btndiv">
+                        <button class="btn001" id="openFormBtn" >Get intouch!</button>
+                    </div>
+                </div>
+                <div id="contactFormPopup" class="popup">
+                    <div class="popup-content">
+                        <span class="close-btn" id="closeFormBtn">&times;</span>
+                        <h2>Contact Us</h2>
+                        <form action="connectors/send_email.php" method="POST">
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" required>
+                            
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                            
+                            <label for="message">Message:</label>
+                            <textarea id="message" name="message" rows="4" required></textarea>
+                            
+                            <button type="submit">Submit</button>
+                        </form>
+
+                    </div>
+                </div>
+        </div>
+            </section>
+<div class="break">
+    <marquee behavior="" direction="right">
+        <p>THRIVING PRESENCE</p>
+    </marquee>
+</div>
+        <!--SERVICE SECTION STARTS HERE-->
+<section class="servicesnew" id="services">
+            <div class="servicenewhead"><h1> OUR SERVICES</h1>
+            <hr style="width: 90%; background-color: #004643;">
+            <p>We offer our services online, in person, and even in a hybrid format to accommodate all your needs.</p>
+            </div>
+                <div class="servicesnewservices">
+                    <div class="serivicesnewcontent">
+                        <div class="serivicespics">
+                            <img src='Images/personalcoaching.jpeg'alt="">
+    
+                        </div>
+                        <div class="servicesnewdescriptions">
+                            <h4>Personal  Leadership Coaching</h4>
+                            <p>
+                                Personal Leadership Coaching involves a dedicated process where a coach
+                                partners with an individual to enhance their leadership skills, 
+                                self-awareness, and effectiveness in achieving personal and professional goals. It focuses on developing leadership qualities, decision-making abilities, and fostering a growth mindset tailored to the individual's unique aspirations and challenges.
+    
+                            </p>
+                            <button id="apply"><a href="booking.html">APPLY</a></button>
+                        </div>
+                    </div>
+    <!--SERVICES2-->
+                    <div class="serivicesnewcontent">
+                        <div class="serivicespics">
+                            <img src="Images/lead1.jpeg" alt="">
+                        </div>
+                        <div class="servicesnewdescriptions">
+                            <h4>Group Leadership Coaching</h4>
+                            <p>
+                                Group Leadership Coaching is a collaborative coaching process aimed at developing leadership skills 
+                                within a group or team context. It focuses on enhancing communication, collaboration, and collective problem-solving abilities among team members, fostering a supportive environment for mutual growth and achieving collective goals.
+    
+                            </p>
+                            <button id="apply"><a href="booking.html">APPLY</a></button>
+                        </div>
+                    </div>
+    <!--SERVICES3-->
+                <div class="serivicesnewcontent">
+                    <div class="serivicespics">
+                        <img src="Images/orgdev.jpeg" alt="">
+                    </div>
+                    <div class="servicesnewdescriptions">
+                        <h4>Organizational Development</h4>
+                        <p>
+                            Organizational Development (OD) encompasses planned, systematic efforts to enhance an organization's effectiveness and resilience. It involves implementing strategies 
+                            and interventions to improve organizational culture, structure, processes, and systems, aiming to facilitate positive change, growth, and adaptation to internal and external challenges.
+                        </p>
+                        <button id="apply"><a href="booking.html">APPLY</a></button>
+                    </div>
+                </div>
+    <!--SERVICES4-->
+    <div class="serivicesnewcontent">
+        <div class="serivicespics">
+            <img src="Images/mentorship.jpeg" alt="">
+        </div>
+        <div class="servicesnewdescriptions">
+            <h4>Leadership Mentorship</h4>
+            <p>
+                Leadership mentorship involves a structured relationship where an experienced leader guides and supports a less experienced individual in developing their leadership skills, knowledge, and career growth. It focuses on providing personalized advice, insights, and opportunities for the mentee to learn and grow professionally under the mentor's guidance.
+             </p>
+            <button id="apply"><a href="booking.html">APPLY</a></button>
+        </div>
+    </div>
+    <!--SERIVCE5-->
+    <div class="serivicesnewcontent">
+        <div class="serivicespics">
+            <img src="Images/training.jpeg" alt="">
+        </div>
+        <div class="servicesnewdescriptions">
+            <h4>Training in Coaching, Mentoring, and Counselling</h4>
+            <p>
+                Training in Coaching, Mentoring, and Counselling equips individuals with the skills and knowledge to effectively guide and support others. 
+                This training covers essential techniques and best practices to foster personal and professional development, enhance communication, and build strong, supportive relationships.
+            </p>
+            <button id="apply"><a href="booking.html">APPLY</a></button>
+        </div>
+    </div>
+    <!--SERIVCE6-->
+    <div class="serivicesnewcontent">
+        <div class="serivicespics">
+            <img src="Images/counselling2.jpeg" alt="">
+        </div>
+        <div class="servicesnewdescriptions">
+            <h4>Counselling Services</h4>
+            <p>
+                Counselling Services provide individuals with a supportive and confidential environment to explore personal issues, develop coping strategies, and enhance emotional well-being. 
+                Professional counsellors use therapeutic techniques to help clients navigate life challenges, improve mental health, and achieve personal growth.
+            </p>
+            <button id="apply"><a href="booking.html">APPLY</a></button>
+        </div>
+    </div>
+    <!--SERIVCE7-->
+    <div class="serivicesnewcontent">
+        <div class="serivicespics">
+            <img src="Images/speaking.jpeg" alt="">
+        </div>
+        <div class="servicesnewdescriptions">
+            <h4>Public Speaking, Conferences, Workshop Moderation</h4>
+            <p>
+                Public Speaking, Conferences, and Workshop Moderation services aim to enhance individuals' abilities to effectively communicate, engage, and inspire audiences. 
+                These services provide training and support for delivering impactful presentations, facilitating productive discussions, and leading successful events.
+            </p>
+            <button id="apply"><a href="booking.html">APPLY</a></button>
+        </div>
+    </div>
+    
+    <!--SERIVCE8-->
+    <div class="serivicesnewcontent">
+        <div class="serivicespics">
+            <img src="Images/journal.jpeg" alt="">
+        </div>
+        <div class="servicesnewdescriptions">
+            <h4>Training on the Power of Journal Keeping</h4>
+            <p>
+                Training on the Power of Journal Keeping emphasizes the benefits of regular journaling for personal reflection, emotional well-being, and goal setting. 
+                Participants learn techniques for effective journaling, fostering self-awareness, creativity, and a deeper understanding of their thoughts and experiences.
+            </p>
+            <button id="apply"><a href="booking.html">APPLY</a></button>
+        </div>
+    </div>
+    
+        </div>
+<div class="bookbtn" style="width: 100%; height: 6.3rem; display: flex; justify-content: center;
+align-items: center;">
+    <button class="btn001"><a href="https://calendly.com/katherinewanjohi" style="text-decoration: none;
+                        color: #E6E6FA;">Book an enquiry session</a></button>
+</div>
+    
+</section>
+<div class="break">
+    <marquee behavior="" direction="right">
+        <p>THRIVING PRESENCE</p>
+    </marquee>
+</div>
+<!--ABOUT SECTION-->
+<section class="aboutmesection" id="aboutme">
+    <div class="servicenewhead">
+        <h1>ABOUT ME</h1>
+        <hr style="width: 90%; background-color: #004643;">
+    </div>
+    <div class="aboutcontainer">
+                <div class="picmaincontianer">
+                    <div class="picframe">
+                        <div class="imagedivabout">
+                        </div>
+                    </div>
+                </div>
+                <div class="contentcontainerabout">
+                    <h1>Catherine Wanjohi</h1>
+                    <p>I am an executive, team, and life coach with over 10 years of experience in corporate, nonprofit, and individual leadership coaching. Since 2004, I have been the CEO of Life Bloom Services International (LBSI), a nonprofit organization I co-founded, leading it to build strategic partnerships worldwide.</p>
+
+                    <p>LBSI focuses on working with marginalized populations to promote inclusivity and participation. As a professional coach, I have engaged with various organizations’ staff and boards locally and globally, fostering governance and inclusivity. My leadership style is anchored in Reflective Models for transformation.</p>
+
+                    <p>I am a Senior Certified Professional Coach with Coach Transformative Academy (Dubai), an Associate Certified Coach (ACC) with the International Coaching Federation (ICF), and a Certified Professional Mentor with the International Mentoring Centre. Additionally, I am a Professional Counsellor with the Kenya Psychologists and Counsellors Association (KPCA).</p>
+
+                    <p>I am also a member of the International Coach Federation (ICF), based in New York. Based in the Global South, I offer a unique perspective that strengthens existing coaching practices. I specialize in an eclectic approach to coaching. My top three styles are holistic for life coaching, democratic for teams, and visionary for all engagements.</p>
+
+                    <p>My style is rooted in reflective experiential processes that help clients and myself tap into inner strength, becoming effective in desired situations. I thrive working with individuals, groups, and teams eager to step into their best selves, especially during disruptive moments.</p>
+
+                    <p>I focus primarily on middle management levels in corporations and organizations, helping bridge the gap between senior management strategies and their implementation at lower management levels.</p>
+
+                    <p>Additionally, I am an Ambassador with Safaricom Foundation World of Difference 2013 and a Commonwealth Foundation Peer Mentor for Civil Society on Inclusion and Participation.</p>
+                </div>
+    </div>
+</section>
+<div class="break">
+    <marquee behavior="" direction="right">
+        <p>THRIVING PRESENCE</p>
+    </marquee>
+</div>
+<section class="Showcase">
+    <div class="servicenewhead">
+        <h1 style="color: #E6E6FA;">SHOWCASE</h1>
+        <hr style="width: 90%; background-color: #004643;">
+    </div>
+    <div class="showcasemaincontainer">
+        <div class="showcasecontent1" id="showcasecontentId">
+            <div class="showcasedetails">
+                <div class="detailz">
+                    <h4>Facilitating a conference at a university in the USA</h4>
+                </div>
+                <div class="btnshowcase">
+                    <a href="#">More Info</a>
+                </div>
+            </div>
+        </div>
+        <div class="showcasecontent2" id="showcasecontentId">
+            <div class="showcasedetails">
+                <div class="detailz">
+                    <h3>VICE PRESIDENT OF IACD CATHERINE WANJOHI TO PRESENT AT GLOBAL WEBINAR </h3>
+                    
+                </div>
+                <div class="btnshowcase">
+                   <a href="https://www.iacdglobal.org/2020/10/12/vice-president-of-iacd-catherine-wanjohi-to-present-at-global-webinar-this-month/">More Info</a>
+                </div>
+            </div>
+        </div>
+        <div class="showcasecontent3" id="showcasecontentId">
+            <div class="showcasedetails">
+                <div class="detailz">
+                <h4>‘I gave up my job to try and help people on the streets’</h4>
+                    <div style="height: 90%; width: 1px; background-color: black;"></div>
+                        <p>Destiny Reflection and the Kolkata International Women's Club Co-Host Event on Leadership Principles at The Glenburn Penthouse</p>
+                </div>
+                <div class="btnshowcase">
+                    <a href="https://www.telegraphindia.com/my-kolkata/events/destiny-reflection-and-the-kolkata-international-womens-club-co-host-event-on-leadership-principles-at-the-glenburn-penthouse/cid/1914960">More Info</a>
+                </div>
+            </div>
+        </div>
+        <div class="showcasecontent4" id="showcasecontentId">
+            <div class="showcasedetails">
+                <div class="detailz">
+                    <h4>International Insights from Catherine Wanjohi</h4>
+                </div>
+                <div class="btnshowcase">
+                    <a href="https://www.google.com/imgres?imgurl=https://images.squarespace-cdn.com/content/v1/59b82ed532601e01a494df34/1604661988443-ZXOWSUTFLNR83ZNSMSS6/EkI9OsOXsAAZ1He.jpg&tbnid=MsNQacyRuvUVzM&vet=1&imgrefurl=https://davidhumeinstitute.org/past/2020/10/28/international-insights-from-catherine-wanjohi-part-of-the-global-south-series-in-partnership-with-wevolution&docid=aBH6C-dwUEIkKM&w=1012&h=675&hl=en-GB&source=sh/x/im/m1/4&kgs=173371bc516f9bf2&shem=abme,trie">More Info</a>
+                </div>
+            </div>
+        </div>
+        <div class="showcasecontent5" id="showcasecontentId">
+            <div class="showcasedetails">
+                <div class="detailz">
+                    <h4>Third Board Member Appointed for Africa</h4>
+                    
+                </div>
+                <div class="btnshowcase">
+                   <a href="https://www.iacdglobal.org/2018/07/04/third-board-member-appointed-for-africa/">More Info</a>
+                </div>
+            </div>
+        </div>
+        <div class="showcasecontent6" id="showcasecontentId">
+            <div class="showcasedetails">
+                <div class="detailz">
+                <h4> How Women Lead - Coaches</h4>
+                    <div style="height: 90%; width: 1px; background-color: black;"></div>
+                        <p>Executive Coaching is an inquiry-based approach to personal and professional development that is aimed at creating awareness, generating action, and facilitating learning and growth. </p>
+                </div>
+                <div class="btnshowcase">
+                    <a href="https://www.howwomenlead.com/coaches" target="_blank">
+                        More Info</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="break">
+    <marquee behavior="" direction="right">
+        <p>THRIVING PRESENCE</p>
+    </marquee>
+</div>
+<section class="section4">
+    <div class="servicenewhead">
+        <h1>CREDENTIALS AND EXPERIENCE</h1>
+        <hr style="width: 90%; background-color: #004643;">
+    </div>
+        <div class="experience">
+       
+
+            <div class="job">
+                <h3><i class="fas fa-user-tie icon"></i> Senior Certified Professional Coach</h3>
+                <p><i class="fas fa-building icon"></i> Coach Transformative Academy.</p>
+                <p><i class="fas fa-calendar icon"></i> Jan 2023 - Present (1 yr 7 mos)</p>
+                <p><i class="fas fa-globe icon"></i> Global Hybrid</p>
+            </div>
+
+            <div class="job">
+                <h3><i class="fas fa-chalkboard-teacher icon"></i> Transformative Leadership Coach and Mentor and Organizational Development Expert</h3>
+                <p><i class="fas fa-building icon"></i> Transformative Leadership and Training LTD</p>
+                <p><i class="fas fa-calendar icon"></i> Mar 2013 - Present (11 yrs 5 mos)</p>
+            </div>
+
+            <div class="job">
+                <h3><i class="fas fa-hands-helping icon"></i> Ambassador: World of Difference</h3>
+                <p><i class="fas fa-building icon"></i> Safaricom Foundation Ambassador, WOD Safaricom Foundation</p>
+                <p><i class="fas fa-calendar icon"></i> Jan 2013 - Present (11 yrs 7 mos)</p>
+                <p>Volunteering skills, expertise, and time to support Brucewood Education Center in building structures for visibility and sustainability.</p>
+            </div>
+
+            <div class="job">
+                <h3><i class="fas fa-hands-helping icon"></i> Ambassador and mentor</h3>
+                <p><i class="fas fa-building icon"></i> Commonwealth Foundation Civil Societies for Inclusion and Participation </p>
+                <p><i class="fas fa-calendar icon"></i> 2013</p>
+                <p>Volunteering skills, expertise, and time to support Brucewood Education Center in building structures for visibility and sustainability.</p>
+            </div>
+
+            <div class="job">
+                <h3><i class="fas fa-chair icon"></i> Chairperson, Board of Directors</h3>
+                <p><i class="fas fa-building icon"></i> Naivasha Water and Sanitation Company</p>
+                <p><i class="fas fa-calendar icon"></i> May 2012 - Dec 2018 (6 yrs 8 mos)</p>
+                <p><i class="fas fa-map-marker-alt icon"></i> Kenya</p>
+            </div>
+
+            <div class="job">
+                <h3><i class="fas fa-book icon"></i> Published Author and Journal Writing Trainer</h3>
+                <p><i class="fas fa-calendar icon"></i> Jan 2009 - Present (15 yrs 7 mos)</p>
+            </div>
+
+            <div class="job">
+                <h3><i class="fas fa-user-tie icon"></i> Founder Member and Executive Director</h3>
+                <p><i class="fas fa-building icon"></i> Life Bloom Services International</p>
+                <p><i class="fas fa-calendar icon"></i> Sep 2004 - Present (19 yrs 11 mos)</p>
+                <p><i class="fas fa-map-marker-alt icon"></i> Naivasha and Nairobi, Kenya</p>
+            </div>
+
+
+        </div>
+</section>
+<div class="break">
+    <marquee behavior="" direction="right">
+        <p>THRIVING PRESENCE</p>
+    </marquee>
+</div>
+<!--------------------------------------------------------TESTIMONIALS SECTIONS----------------------------------------------------------->
+<section class="testmonials">
+    <div class="testimonialheader">
+        <h2 style="color: #E6E6FA;">Testimonials</h2>
+        <hr style="width: 90%; margin-left: 5%;">
+    </div>
+    <div class="testimonialcontent">
+        <div class="testimonial-grid">
+            <div class="testimonial">
+                <img src="Images//profile 1.jpg" alt="Profile 1">
+                <p class="name">Lewis Ndavi</p>
+                <p class="content" style="text-align: justify;">"Coaching has significantly impacted my life, helping me achieve three out of four annual goals. It has taught me 
+                    self-love, which is crucial for reaching personal goals. I'm grateful to my coach and the coaching process. Thank you."
+                </p>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+            <div class="testimonial">
+                <img src="Images/profile 2.jpeg" alt="Profile 2">
+                <p class="name">Celestine Ndege</p>
+                <p class="content" style="text-align: justify;">"I'm Celestine Ndege from Gilgil, and Coach Kathy's sessions have transformed my life. Her coaching awakened my potential, showing me 
+                    I can achieve my goals independently by focusing on my available resources and opportunities. Additionally, i have 
+                    been so lucky to also have recieved mentoring from coach and indeed i can say Life is good!".
+                </p>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+            <div class="testimonial">
+                <img src="Images/profile 3.jpeg" alt="Profile 3">
+                <p class="name">Janet Katunge</p>
+                <p class="content" style="text-align: justify;">"I, Janet Katunge, have greatly benefited from Catherine Wanjohi's mentorship. She gave me hope when I felt hopeless and helped me achieve 
+                    things I never thought possible, like successfully running my family company. She is my first mentor, and I am grateful to her. I feel I am moving in the right direction. Strength of a woman!"</p>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+            <div class="testimonial">
+                <img src="Images/profile 4.jpg" alt="Profile 4">
+                <p class="name">Grace Macharia</p>
+                <p class="content" style="text-align: justify;">"I am Grace Macharia, a professional counselor, and a beneficiary of Life Blue. The 6-month course, especially the coaching sessions, has been transformative. Coaching restored my self-expression
+                     and helped me manage stress. As a visually impaired person, coaching has greatly improved my ability to express my needs and preferences. I am now empowered and transformed. I'm very grateful.".</p>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+            <div class="testimonial">
+                <img src="Images/profile5.jpg" alt="Profile 5">
+                <p class="name">Mundia Anthony</p>
+                <p class="content" style="text-align: justify;">"I had the pleasure of receiving life coaching from Coach Kathy, and it was an incredibly transformative experience. Her insightful guidance and unwavering support helped me navigate through challenging times and discover my true potential. Kathy's holistic approach and personalized strategies made a significant impact on my personal and professional growth. I wholeheartedly give her 5 stars for her exceptional coaching services!"</p>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+        <!--
+            <div class="testimonial">
+                <img src="Images/profile 6.jpeg" alt="Profile 5">
+                <p class="name">Emily Davis</p>
+                <p class="content" style="text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce auctor ac nisl sit amet.</p>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+        -->
+        </div>
+    </div>
+</section>
+<section class="contact">
+    <div class="contactheader">
+        <h2 id="contacts" style="font-size: 18px;">Reach Us Through</h2>
+        <hr width="90%">
+    </div>
+    <div class="mainconactcontainer">
+    <div class="contactdetail">
+        <div class="social-media">
+            <ul class="social-media-list">
+                <li><a href="https://web.facebook.com/profile.php?id=100083237147342" target="_blank" class="social-link"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="mailto:katherinewanjohi@gmail.com" class="social-link"><i class="fa-solid fa-envelope"></i></a></li>
+                <li><a href="https://www.instagram.com/catherinewanjohi/" target="_blank" class="social-link"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/catherine-mumbi-wanjohi?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B2h7P1KZwSuGfhPx1S2%2FI%2Bg%3D%3D" target="_blank" class="social-link"><i class="fab fa-linkedin-in"></i></a></li>
+                <li><a href="https://www.youtube.com/channel/UCK58izy4sjb8Of-qlYuJa7Q" target="_blank" class="social-link"><i class="fab fa-youtube"></i></a></li>
+                <li><a href="https://x.com/share?url=https://thrivingpresence7.wixsite.com/thrivingpresence/post/thriving-presence" target="_blank" class="social-link"><i class="fa-brands fa-x-twitter"></i></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="contact-form-container">
+        <form action="connectors/process_form.php" method="POST">
+            <div class="form-group">
+                <input type="text" id="name" name="name" required placeholder="Name">
+            </div>
+            <div class="form-group">
+   
+                <input type="email" id="email" name="email" required placeholder="email">
+            </div>
+            <div class="form-group">
+                <textarea id="message" name="message" rows="5" required placeholder="ENTER YOUR MESSAGE HERE...."></textarea>
+            </div>
+            <div class="form-group">
+                <button type="submit">Send Message</button>
+            </div>
+        </form>
+    </div>
+    </div>
+</section>
+
+<script src="script.js"></script>
+</html>
+</body>
